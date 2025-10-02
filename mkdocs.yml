@@ -1,0 +1,31 @@
+site_name: Documentación Seguimiento Licitaciones
+site_url: https://neohal9001.github.io/mkdocs/
+repo_url: https://github.com/neohal9001/mkdocs
+repo_name: neohal9001/mkdocs
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - codehilite
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
