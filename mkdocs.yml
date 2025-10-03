@@ -3,6 +3,10 @@ site_url: https://neohal9001.github.io/mkdocs/
 repo_url: https://github.com/neohal9001/mkdocs
 repo_name: neohal9001/mkdocs
 
+# Configuración para GitHub Pages
+docs_dir: source
+site_dir: docs
+
 theme:
   name: material
   features:
